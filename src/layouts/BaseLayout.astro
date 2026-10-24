@@ -20,23 +20,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <link rel="canonical" href={canonical} />
     <title>{title}</title>
     <style is:global>
-      :root {
-        color-scheme: light;
-        --bg: #f6f5f2;
-        --surface: #ffffff;
-        --text: #24232d;
-        --muted: #777582;
-        --line: #e4e2e8;
-        --accent: #6657d9;
-        --accent-soft: #eeebff;
-        --code: #1a1a18;
-        --reading-width: 70ch;
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        font-synthesis: none;
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
       *, *::before, *::after { box-sizing: border-box; }
       html { scroll-behavior: smooth; }
       body { margin: 0; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.7; }
