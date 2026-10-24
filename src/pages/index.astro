@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog", ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const dateFormat = new Intl.DateTimeFormat("id-ID", { day: "numeric", month: "short", year: "numeric" });
+---
+<BaseLayout title="Scroll the Feed — Thoughts, Stories and Everything in Between">
+  <section aria-label="Daftar artikel">
+    {posts.length ? (
+      <ol class="post-list">
+        {posts.map((post) => (
+          <li class="post-item">
+            <div class="post-content">
+              <h3 class="post-title"><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+              <div class="post-meta">
+                <span><em>posted on</em> <strong><time datetime={post.data.pubDate.toISOString()}>{dateFormat.format(post.data.pubDate).toUpperCase()}</time></strong></span>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ol>
+    ) : <p>Belum ada tulisan. Tambahkan file Markdown di <code>src/content/blog/</code>.</p>}
+  </section>
+</BaseLayout>

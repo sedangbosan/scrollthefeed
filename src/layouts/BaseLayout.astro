@@ -1,0 +1,278 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+const {
+  title = "Scroll the Feed — thoughts, systems & the web",
+  description = "Catatan tentang teknologi, desain, dan hal-hal yang dibuat dengan rasa ingin tahu."
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f6f5f2" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <title>{title}</title>
+    <style is:global>
+      :root {
+        color-scheme: light;
+        --bg: #f6f5f2;
+        --surface: #ffffff;
+        --text: #24232d;
+        --muted: #777582;
+        --line: #e4e2e8;
+        --accent: #6657d9;
+        --accent-soft: #eeebff;
+        --code: #1a1a18;
+        --reading-width: 70ch;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.7; }
+      a { color: inherit; text-decoration-thickness: .08em; text-underline-offset: .2em; }
+      a:hover { color: var(--accent); }
+      a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+
+.prose p a {
+   color: var(--text);
+   font-weight: 700;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, var(--bg), var(--bg)),
+    linear-gradient(90deg, var(--underline-color), var(--underline-color));
+  background-size: var(--underline-block-width) var(--underline-width),
+    100% var(--underline-width);
+  background-repeat: no-repeat;
+  background-position-x: calc(var(--underline-block-width) * -1), 0;
+  background-position-y: 100%;
+  transition: background-position-x var(--underline-transition);
+}
+
+.prose p a:hover {
+  background-image: linear-gradient(90deg, var(--bg), var(--bg)),
+    linear-gradient(
+      90deg,
+      var(--underline-color-hover),
+      var(--underline-color-hover)
+    );
+  background-position-x: calc(100% + var(--underline-block-width)), 0;
+}
+
+.prose figure figcaption,
+.prose p:has(> em) {
+  margin-top: 0.75rem;
+  font-size: 0.765rem;
+  line-height: 1.6;
+  color: var(--muted);
+  text-align: center;
+}
+
+      ::selection { background: #dcd6ff; color: #24232d; }
+      .site-shell { width: min(100% - 40px, 700px); margin-inline: auto; }
+      .site-header { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 27px 0; border-bottom: 1px solid var(--line); }
+      .brand { font-weight: 760; letter-spacing: -.045em; font-size: 1.08rem; text-decoration: none; }
+      .brand-mark { color: var(--accent); }
+      .nav { display: flex; gap: 22px; color: var(--muted); font-size: .92rem; }
+      .nav a { text-decoration: none; }
+      main { min-height: 65vh; }
+      .hero { padding: clamp(48px, 9vw, 92px) 0 50px; }
+      .eyebrow { display: inline-flex; align-items: center; gap: 8px; color: var(--accent); font-size: .78rem; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+      .eyebrow::before { content: ""; width: 7px; height: 7px; background: currentColor; border-radius: 50%; }
+      h1, h2, h3 { line-height: 1.1; letter-spacing: -.045em; }
+      h1 { max-width: 780px; margin: 18px 0; font-size: clamp(2.6rem, 7.5vw, 5rem); font-weight: 760; }
+      .hero p { max-width: 58ch; margin: 0; color: var(--muted); font-size: clamp(1.05rem, 2.5vw, 1.2rem); }
+      .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 20px 0 10px; border-bottom: 1px solid var(--line); }
+      .section-heading h2 { margin: 0; font-size: 1rem; letter-spacing: -.01em; }
+      .section-heading span { color: var(--muted); font-size: .85rem; }
+      .post-list { list-style: none; margin: 0; padding: 0; }
+      .post-item { display: block; width: 100%; min-width: 0; padding: 25px 0; border-bottom: 1px solid var(--line); }
+      .post-content { display: block; width: 100%; min-width: 0; }
+      .post-title { max-width: none; overflow-wrap: normal; word-break: normal; }
+      .post-date { padding-top: 4px; color: var(--muted); font-size: .82rem; font-variant-numeric: tabular-nums; }
+      .post-category { display: inline-block; margin-bottom: 7px; padding: 2px 9px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); font-size: .72rem; font-weight: 700; }
+      .post-title { margin: 0 0 8px; font-size: clamp(1.28rem, 3vw, 1.7rem); font-weight: 720; }
+      .post-title a { text-decoration: none; }
+      .post-description { max-width: 62ch; margin: 0; color: var(--muted); font-size: .96rem; }
+      .post-meta { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 13px; color: var(--muted); font-size: .8rem; }
+      .post-meta .dot { opacity: .6; }
+      .article-header { padding: clamp(48px, 8vw, 80px) 0 34px; border-bottom: 1px solid var(--line); text-align: center; }
+      .article-header h1 { max-width: 760px; margin-inline: auto; font-size: clamp(2.5rem, 6.5vw, 4.4rem); }
+      .article-meta { justify-content: center; }
+      .article-description { max-width: 62ch; color: var(--muted); font-size: 1.13rem; }
+      .article-meta { display: flex; flex-wrap: wrap; gap: 12px; color: var(--muted); font-size: .88rem; }
+      .article-meta time { line-height: 1.5; letter-spacing: .08em; }
+      .prose { width: min(100%, var(--reading-width)); margin: 38px auto 90px; font-size: 1.075rem; line-height: 1.85; overflow-wrap: break-word; }
+      .prose > :first-child { margin-top: 0; }
+      .prose h2, .prose h3 { margin-top: 2.2em; margin-bottom: .7em; line-height: 1.25; }
+      .prose h2 { font-size: clamp(1.7rem, 4vw, 2.15rem); }
+      .prose h3 { font-size: 1.35rem; }
+      .prose p, .prose ul, .prose ol, .prose blockquote { margin-block: 1.25em; }
+      .prose li { padding-left: .25em; margin-block: .35em; }
+      .prose blockquote { margin-inline: 0; padding: 2px 0 2px 20px; border-left: 3px solid var(--muted); color: var(--muted); }
+      .prose img { display: block; max-width: 100%; height: auto; border-radius: 12px; }
+      .prose pre { overflow-x: auto; padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--code); font-size: .86rem; line-height: 1.65; }
+      .prose code { padding: .15em .35em; border-radius: 5px; background: var(--code); font-size: .88em; background: rgba(var(--kode), .05); border: 1px solid var(--bkode); }
+      .prose pre code { padding: 0; background: transparent; }
+
+pre.astro-code {
+  position: relative;
+  box-sizing: border-box;
+  margin: 2rem 0;
+  padding: 78px 24px 24px;
+  overflow-x: auto;
+  background-color: #1a1a18 !important;
+  border: 1px solid #faf9f517;
+  border-radius: 16px;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, monospace;
+  font-size: 14px;
+  line-height: 1.8;
+  tab-size: 2;
+  background-image: linear-gradient(to right, #383838, #383838);
+  background-size: calc(100% - 48px) 1px;
+  background-position: center 58px;
+  background-repeat: no-repeat;
+  -webkit-overflow-scrolling: touch;
+}
+pre.astro-code:before {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  width: 54px;
+  height: 14px;
+  background: radial-gradient(circle, #ff5f57 0 6px, transparent 6.5px) 0 1px /
+      14px 14px no-repeat,
+    radial-gradient(circle, #febc2e 0 6px, transparent 6.5px) 20px 1px / 14px
+      14px no-repeat,
+    radial-gradient(circle, #28c840 0 6px, transparent 6.5px) 40px 1px / 14px
+      14px no-repeat;
+}
+pre.astro-code[data-language]:after {
+  content: attr(data-language);
+  position: absolute;
+  top: 17px;
+  right: 24px;
+  color: #a1a1aa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: lowercase;
+}
+pre.astro-code code {
+  display: block;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+}
+pre.astro-code code span {
+  font-family: inherit;
+}
+.post-content :not(pre) > code {
+  padding: 0.15em 0.4em;
+  color: #c2410c;
+  background-color: #f6f8fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, monospace;
+  font-size: 0.88em;
+  overflow-wrap: anywhere;
+}
+
+      .prose hr { border: 0; border-top: 1px solid var(--line); margin: 2.5em 0; }
+      .back-link { display: inline-block; margin-top: 26px; color: var(--muted); font-size: .9rem; text-decoration: none; }
+      .post-navigation { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; margin: 0 auto 70px; padding-top: 24px; border-top: 1px solid var(--line); }
+      .post-nav-link { display: flex; min-width: 0; flex-direction: column; gap: 7px; padding: 17px; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; transition: border-color .15s ease, background .15s ease; }
+      .post-nav-link:hover { border-color: var(--postborder); background: var(--postnav); }
+      .post-nav-next { text-align: right; }
+      .post-nav-label { color: var(--muted); font-size: .78rem; }
+      .post-nav-title { font-size: .95rem; font-weight: 700; line-height: 1.4; overflow-wrap: anywhere; }
+      .site-footer { display: flex; justify-content: space-between; gap: 18px; padding: 26px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
+      .site-footer p { margin: 0; }
+      @media (min-width: 800px) {
+        .article-header { padding: clamp(28px, 8vw, 20px) 0 34px; }
+        .article-header h1 { max-width: 960px; margin-left: -100px; margin-right: -100px; }
+      }
+      @media (max-width: 560px) {
+        .site-shell { width: min(100% - 32px, 700px); }
+        .site-header { padding: 21px 0; }
+        .nav { gap: 14px; font-size: .85rem; }
+        .post-item { padding: 22px 0; }
+        .post-navigation { grid-template-columns: 1fr; }
+
+        .site-footer { flex-direction: column; }
+      }
+@media (max-width: 640px) {
+  pre.astro-code {
+    margin: 1.5rem 0;
+    padding: 64px 16px 18px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 1.75;
+    background-size: calc(100% - 32px) 1px;
+    background-position: center 50px;
+  }
+  pre.astro-code:before {
+    top: 18px;
+    left: 16px;
+  }
+  pre.astro-code[data-language]:after {
+    top: 13px;
+    right: 16px;
+    font-size: 11px;
+  }
+}
+      @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+          --bg: #141413;
+          --surface: #202027;
+          --text: #d1cfc0;
+          --muted: #87867f;
+          --line: #faf9f517;
+          --accent: #f76f53;
+          --accent-soft: #302b4b;
+          --code: #1a1a18;
+          --postnav: #1a1a18;
+          --postborder: #faf9f517;
+          --color: #d1cfc0;
+          --underline-width: 8px;
+          --underline-block-width: 20px;
+          --underline-color: hsla(53, 3%, 51%, 0.5);
+          --underline-color-hover: hsla(10, 91%, 65%, 1);
+          --underline-transition: 0.5s;
+          --kode: 250, 249, 245;
+          --lkode: #faf9f517;
+        }
+        ::selection { background: #f76f53; color: #1a1a18; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="Scroll the Feed home"><span class="brand-mark">✳</span> Scroll the Feed</a>
+        <nav class="nav" aria-label="Navigasi utama">
+          <a href="/about/">Tentang</a>
+        </nav>
+      </header>
+      <main><slot /></main>
+      <footer class="site-footer">
+        <p>© {new Date().getFullYear()} Scroll the Feed.</p>
+        <p>Buy me coffee through <a href="/about/">Saweria</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>
