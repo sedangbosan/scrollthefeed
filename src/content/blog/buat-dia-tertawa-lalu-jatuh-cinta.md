@@ -1,7 +1,7 @@
 ---
-title: "Buat Dia Tertawa, Lalu Jatuh Cinta"
+title: "Buat dia tertawa, lalu jatuh cinta"
 description: "Jangan sekali-kali ngebadut atau ngebanci. Buat mereka tertawa BERSAMA kamu. Bukan menertawai kamu."
-pubDate: 2016-03-08
+pubDate: 2025-03-08
 ---
 
 Baru beberapa tahun ini aku menyadari bahwa cara membuat cewe ketawa itu beda banget dengan yang aku pikirkan sebelumnya. Terutama cara yang ga cuma bikin cewe ketawa, tapi juga makin naksir sama kita.
