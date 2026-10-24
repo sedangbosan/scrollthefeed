@@ -40,13 +40,13 @@ Dan karena penasaran, aku mulai melihat lebih teliti, mendengar lebih tajam,”A
 
 Kawan aku itu hanya becanda SAMA PERSIS seperti jaman kita SD dulu. Tidak ada joke-joke hasil nonton stand up comedy di tivi atau baca “100 SMS Humor untuk Gebetan” yang kini mulai ditinggalkan.
 
-Ya, ada sih beberapa. Tapi hanya selingan. Dia lebih sering memakai style anak kecil. Dan apa yang menyenangkan dari anak kecil? Mereka bisa rangkul-rangkulan, lari-lari, cubit-cubitan, tapi tetep fun! Tanpa si cewe merasa Anda cowok gatel.
+Ya, ada sih beberapa. Tapi hanya selingan. Dia lebih sering memakai style anak kecil. Dan apa yang menyenangkan dari anak kecil? Mereka bisa rangkul-rangkulan, lari-lari, cubit-cubitan, tapi tetep fun! Tanpa si cewe merasa kamu cowok gatel.
 
 DAN, sesekali dia melakukan becanda yang memang menggoda. Mengalirkan aliran “seksi” sedikit demi sedikit. Tanpa dia sadari, wanita tersebut makin doyan dengan kawan aku. Bila mau, kawan aku pasti bisa mengajaknya berkencan… dengan sangat mudah.
 
 Pada saat itulah aku sadar bahwa yang dibutuhkan wanita bukan funny, tapi FUN. Lebih tepatnya, fun yang SEKSI.
 
-Fun saja membuat Anda dianggap teman. Anda akan masuk ke Friend zone. Bukan itu yang Anda inginkan bukan?
+Fun saja membuat kamu dianggap teman. kamu akan masuk ke Friend zone. Bukan itu yang kamu inginkan bukan?
 
 Aku pernah tersesat dengan terus-terusan mencari joke one-liner yang nge-kill banget, yang (aku harap) membuat aku “Raja Komedi” dan membuat pendengar kagum dengan orisinalitas dan kecerdasan aku
 
@@ -62,11 +62,11 @@ Mereka tidak ingin berpikir. Kalo joke-jokemu membuat mereka berpikir terlalu ba
 
 Dan mereka tidak akan bisa merasa “terangsang” kalau mereka tidak bisa fun dan enjoy dengan diri mereka.
 
-Kalau Anda memiliki masalah dalam membuat wanita tertawa, maka langkah pertama Anda adalah melihat sekeliling dan perhatikan apa yang SEBENARNYA mereka tertawai.
+Kalau kamu memiliki masalah dalam membuat wanita tertawa, maka langkah pertama kamu adalah melihat sekeliling dan perhatikan apa yang SEBENARNYA mereka tertawai.
 
-Anda akan mulai ngeh kalau mereka lebih suka nonton komedi romantis yang konyol ketimbang komedi-komedi “dark” yang merangsang otak Anda.
+kamu akan mulai ngeh kalau mereka lebih suka nonton komedi romantis yang konyol ketimbang komedi-komedi “dark” yang merangsang otak kamu.
 
-Anda akan tahu mereka tidak peduli soal kualitas joke Anda. Yang penting lucu dan bikin ketawa.
+kamu akan tahu mereka tidak peduli soal kualitas joke kamu. Yang penting lucu dan bikin ketawa.
 
 NOTE:
-Jangan sekali-kali ngebadut atau ngebanci. Buat mereka tertawa BERSAMA Anda. Bukan menertawai Anda.
+Jangan sekali-kali ngebadut atau ngebanci. Buat mereka tertawa BERSAMA kamu. Bukan menertawai kamu.
