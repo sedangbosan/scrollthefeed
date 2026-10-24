@@ -52,30 +52,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       a:hover { color: var(--accent); }
       a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
 
-.prose p a {
-   color: var(--text);
-   font-weight: 700;
-  text-decoration: none;
-  background-image: linear-gradient(90deg, var(--bg), var(--bg)),
-    linear-gradient(90deg, var(--underline-color), var(--underline-color));
-  background-size: var(--underline-block-width) var(--underline-width),
-    100% var(--underline-width);
-  background-repeat: no-repeat;
-  background-position-x: calc(var(--underline-block-width) * -1), 0;
-  background-position-y: 100%;
-  transition: background-position-x var(--underline-transition);
-}
-
-.prose p a:hover {
-  background-image: linear-gradient(90deg, var(--bg), var(--bg)),
-    linear-gradient(
-      90deg,
-      var(--underline-color-hover),
-      var(--underline-color-hover)
-    );
-  background-position-x: calc(100% + var(--underline-block-width)), 0;
-}
-
+.prose p a { font-weight: 700 }
+.prose p a:hover { color: #fe846 }
 .prose figure figcaption,
 .prose p:has(> em) {
   margin-top: 0.75rem;
