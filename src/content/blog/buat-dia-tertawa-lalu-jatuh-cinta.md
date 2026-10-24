@@ -1,5 +1,6 @@
 ---
 title: "Buat Dia Tertawa, Lalu Jatuh Cinta"
+description: "Jangan sekali-kali ngebadut atau ngebanci. Buat mereka tertawa BERSAMA kamu. Bukan menertawai kamu."
 pubDate: 2016-03-08
 ---
 
