@@ -1,7 +1,7 @@
 ---
 title: "Buat dia tertawa, lalu jatuh cinta"
 description: "Jangan sekali-kali ngebadut atau ngebanci. Buat mereka tertawa BERSAMA kamu. Bukan menertawai kamu."
-pubDate: 2025-03-08
+pubDate: 2023-03-08
 ---
 
 Baru beberapa tahun ini aku menyadari bahwa cara membuat cewe ketawa itu beda banget dengan yang aku pikirkan sebelumnya. Terutama cara yang ga cuma bikin cewe ketawa, tapi juga makin naksir sama kita.
@@ -14,13 +14,12 @@ Tapi saat aku mulai memperhatikan apa sih yang sebenernya bikin cewe ketawa, aku
 
 Joke-joke sarkas tapi cerdas yang biasanya bikin temen cowo ngakak jarang banget dianggep lucu sama cewe-cewe
 Komedi-komedi yang nyrempet” ke hal-hal porno seringnya malah bikin cewe ilfil. Kecuali ke cewe-cewe bad girl tatoan yang udah biasa bahas gituan.
-Beberapa temen yang jokenya tu sebenernya garing banget menurut aku, eh malah sering dapet reaksi paling sip di sekitar cewe-cewe
-Wanita jarang sekali menilai dari orisinalitas ataupun tingkat intelektual humor seperti teman-teman cowo aku lakukan
-Lalu, apa yang dianggap LUCU oleh wanita?
+
+Beberapa temen yang jokenya tu sebenernya garing banget menurut aku, eh malah sering dapet reaksi paling sip di sekitar cewe-cewe. Wanita jarang sekali menilai dari orisinalitas ataupun tingkat intelektual humor seperti teman-teman cowo aku lakukan. Lalu, apa yang dianggap LUCU oleh wanita?
 
 Sekitar 4 tahun lalu, aku mulai serius untuk menemukan apa sih yang salah dalam interaksi aku dengan wanita. Lalu, aku diberi saran untuk meledek wanita.
 
-salah paham dengan saran tersebut, aku malah jadi sering nge-bully cewe supaya dia naksir. Aku menggunakan kata-kata kasar yang seringnya sampai “melecehkan” wanita secara verbal.
+Salah paham dengan saran tersebut, aku malah jadi sering nge-bully cewe supaya dia naksir. Aku menggunakan kata-kata kasar yang seringnya sampai “melecehkan” wanita secara verbal.
 
 Lebih parah lagi beberapa wanita bener-bener menikmatinya. Sebagian kecil cewe itu seneng banget dengan joke atau ledekan aku yang sebenarnya ekstrim itu. Jadilah aku menganggap bahwa inilah guyonan yang tepat untuk membuat wanita naksir. Aku mulai untuk menggunakan jenis ledekan yang sama untuk semua wanita yang aku temui. Berharap mereka semua akan tergila-gila pada aku.
 
@@ -28,7 +27,7 @@ Dan aku pun gagal total.
 
 Yang belum aku sadari waktu itu adalah sebagian kecil yang sangat kecanduan guyonan aku itu, meskipun cantik, sebenarnya tipikal cewek tomboy. Mereka punya sisi maskulin yang lebih dibanding cewe-cewe lain dan tentunya tidak mewakili keseluruhan tipe wanita.
 
-aku hampir menyerah waktu itu. “Duh, kok masih salah sih?”
+Aku hampir menyerah waktu itu. “Duh, kok masih salah sih?”
 
 Sampai aku melihat kawan aku yang begitu enjoy bercanda dengan cewe-cewe. NOTE: Dia bukan cowo ngondek. Yang jelas, aku sempat bingung kenapa joke-joke dia yang garing dan jayus, eh malah bikin ngakak cewe-cewe. Dan, dia jarang nyeplos omongan yang bikin cowo-cowo ketawa.
 
@@ -48,7 +47,7 @@ Pada saat itulah aku sadar bahwa yang dibutuhkan wanita bukan funny, tapi FUN. L
 
 Fun saja membuat kamu dianggap teman. kamu akan masuk ke Friend zone. Bukan itu yang kamu inginkan bukan?
 
-Aku pernah tersesat dengan terus-terusan mencari joke one-liner yang nge-kill banget, yang (aku harap) membuat aku “Raja Komedi” dan membuat pendengar kagum dengan orisinalitas dan kecerdasan aku
+Aku pernah tersesat dengan terus-terusan mencari joke one-liner yang nge-kill banget, yang (aku harap) membuat aku “Raja Komedi” dan membuat pendengar kagum dengan orisinalitas dan kecerdasan aku.
 
 Aku lupa bahwa…
 
@@ -64,9 +63,9 @@ Dan mereka tidak akan bisa merasa “terangsang” kalau mereka tidak bisa fun d
 
 Kalau kamu memiliki masalah dalam membuat wanita tertawa, maka langkah pertama kamu adalah melihat sekeliling dan perhatikan apa yang SEBENARNYA mereka tertawai.
 
-kamu akan mulai ngeh kalau mereka lebih suka nonton komedi romantis yang konyol ketimbang komedi-komedi “dark” yang merangsang otak kamu.
+Kamu akan mulai ngeh kalau mereka lebih suka nonton komedi romantis yang konyol ketimbang komedi-komedi “dark” yang merangsang otak kamu.
 
-kamu akan tahu mereka tidak peduli soal kualitas joke kamu. Yang penting lucu dan bikin ketawa.
+Kamu akan tahu mereka tidak peduli soal kualitas joke kamu. Yang penting lucu dan bikin ketawa.
 
 NOTE:
 Jangan sekali-kali ngebadut atau ngebanci. Buat mereka tertawa BERSAMA kamu. Bukan menertawai kamu.
